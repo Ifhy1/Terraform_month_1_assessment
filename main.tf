@@ -1,4 +1,4 @@
-# This creates your private network "box"
+# This creates private network "box"
 resource "aws_vpc" "techcorp_vpc" {
   cidr_block           = "10.0.0.0/16"
   enable_dns_hostnames = true
